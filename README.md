@@ -10,7 +10,6 @@ UnderTaker is a free and open source game center and [qBittorrent](https://githu
 
 Just download the game and run it! Everything is pre-configuired for you, thanks to johncena141's repacks! <br />
 
-
 # IMPORTANT
 - Please read [johncena141's guide](https://gitlab.com/jc141x/setup/-/tree/main) to understand more about how their repacks work, and double check the dependencies for their repacks.
 - If you are using a VPN, do not forget to set the network interface in qBittorent to your VPN interface.
@@ -32,13 +31,10 @@ Just download the game and run it! Everything is pre-configuired for you, thanks
 passwd # to set a password
 sudo steamos-readonly disable
 ```
-- Install YAY and DwarFS compatible version:
+- Install compatible version of DwarFS:
 ```
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-git checkout 96f90180a3cf72673b1769c23e2c74edb0293a9f
+git clone https://aur.archlinux.org/dwarfs-bin.git
 makepkg -si
-yay -S dwarfs-bin
 ```
 
 # Configuration
@@ -54,4 +50,4 @@ After you run the AppImage, head to the settings tab.
 - Create a Twitch API app and get a client ID and from [here](https://dev.twitch.tv/console/apps/create)
 
 # Updating the database
-To update the database and fetch new releases by jc141, head to the settings tab and click on the "update database" button. This will take a few minutes and will freeze the app (and might freeze your system), just wait until it finishes and everything will return to normal.
+To update the database and fetch new releases by johncena141, head to the settings tab and click on the "update database" button. This will take a few minutes and will freeze the app (and might freeze your system), just wait until it finishes and everything will return to normal.
