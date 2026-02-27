@@ -8,7 +8,7 @@ This project is for educational purposes only, do not use it against any law or 
 
 UnderTaker is a free and open source game center and [qBittorrent](https://github.com/qbittorrent/qBittorrent) client for Linux, UnderTaker141 fetches all the repacks uploaded by [johncena141](https://1337x.to/user/johncena141/) on 1337x, then fetches their summary and cover art from [IGDB](igdb.com) and displayes them in a "nice" UI :3.
 
-Just download the game and run it! Everything is pre-configuired for you, thanks to johncena141's repacks! <br />
+Just download the game and run it! Everything is pre-configured for you, thanks to johncena141's repacks! <br />
 
 # IMPORTANT
 - Please read [johncena141's guide](https://gitlab.com/jc141x/setup/-/tree/main) to understand more about how their repacks work, and double check the dependencies for their repacks.
